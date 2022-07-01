@@ -1,0 +1,42 @@
+body{
+  background-color: dodgerblue;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;  
+    width:70%;
+    height: fit-content;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+background-color: white;
+color: dodgerblue;
+padding-bottom: 10px;
+  }
+  .quote{
+    text-align: center;
+  }
+  button{
+    width:200px;
+    height: 50px;
+    background-color: dodgerblue;
+    border: 1px;
+    color:white;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+  
+  .Author{
+    color:dodgerblue;
+  text-align:right;
+   width:inherit;
+  }
+  button:hover{
+    background-color: midnightblue;
+  }
